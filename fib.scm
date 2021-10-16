@@ -3,4 +3,4 @@
       n
       (+ (fib (- n 1)) (fib (- n 2)))))
 
-(println "(fib 25_ = " (time (fib 25)))
+(println "(fib 25) = " (time (fib 25)))
